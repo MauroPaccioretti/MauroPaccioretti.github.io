@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.gris-claro {
+    background-color: rgb(192, 192, 192);
+}
+.azul {
+    background-color: midnightblue;
+    color: white;
+}
+.verde {
+    background-color: rgb(59, 139, 59);
+    color: white;
+}
+.bordo {
+    background-color: maroon;
+    color: white;
+}
+.gris-oscuro {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.turquesa {
+    background-color: rgb(54, 170, 158);
+    color: white;
+}
+.naranja {
+    background-color: orange;
+    color: white;
+}
+.verde-oscuro {
+    background-color: darkgreen;
+    color: white;
+}
+.ladrillo {
+    background-color: brown;
+    color: white;
+}
+
+.celeste {
+    background-color: lightskyblue;
+}
+
+.borde-recto {
+    border: 1px solid black;
+}
+.borde-redondeado {
+    border: 1px solid black;
+    border-radius: 0.6em;
+}
+
+.encabezado {
+    height: 12vh;   
+    border: 1px solid black;
+    margin-bottom: 0.2em;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.encabezado-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1 {
+    width: 40%;
+    /* padding-left: 1.2em; */
+    padding: 0.25em 0.5em 0.25em 2.5em;
+    
+}
+.encabezado-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 0.2em;
+    width: 20%;
+    padding: 0.25em 0.7em ; 
+    /* padding-left: 1em; */
+}
+
+.menu2 {
+    width: 65%;
+    padding: 0.25em 0.7em;
+}
+
+.contenedor-superior {
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+.contenedor-inferior {
+    display: flex;
+    height: 35vh;
+    justify-content: space-between;
+}
+.pie {
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.child {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    width: 32%;
+    height: 98%;
+    padding: 20px;
+}
+
+.child-grande {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 66%;
+    height: 98%;
+    padding: 20px;
+}
+
+.elemento {
+    padding: 0.5em 0.85em;
+    font-size: 0.8em;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    
+}
+
+
