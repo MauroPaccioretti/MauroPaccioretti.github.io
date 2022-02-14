@@ -65,10 +65,10 @@ body {
     margin-bottom: 0.2em;
     border-radius: 0.5em;
     display: flex;
-    align-items: stretch;
     justify-content: space-between;
     flex-direction: column;
     padding: 0.5em;
+    gap: 0.2em;
 }
 
 .encabezado-superior{
@@ -78,20 +78,19 @@ body {
 
 .menu1 {
     width: 40%;
-    /* padding-left: 1.2em; */
     padding: 0.25em 0.5em 0.25em 2.5em;
-    
 }
+
 .encabezado-inferior {
     display: flex;
     justify-content: space-between;
+    gap: 0.2em;
 }
 
 .logo {
     margin-left: 0.2em;
     width: 22%;
-    padding: 0.25em 0.7em ; 
-    /* padding-left: 1em; */
+    padding: 0.25em 0.7em ;
 }
 
 .menu2 {
@@ -142,10 +141,10 @@ body {
 @media only screen and (max-width: 576px) {
 
     .encabezado {        
-        flex-direction: row;
+        flex-direction: row;                       
     }
 
-    .encabezado-superior{        
+    .encabezado-superior{
         flex-direction: column;
         width: 49%;
     }
@@ -155,7 +154,8 @@ body {
         padding: 0.25em 0.4em 0.25em 1.5em;
         overflow: auto;
     }
-    .encabezado-inferior {        
+    .encabezado-inferior { 
+              
         flex-direction: column;        
         width: 49%;
     }
