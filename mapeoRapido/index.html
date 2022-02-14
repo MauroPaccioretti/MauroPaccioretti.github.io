@@ -39,66 +39,66 @@
     </header>
     <h1 class="text-center m-5">Welcome to MapeoRapido</h1>
 
-    <div class="d-grid gap-2 col-6 mx-auto">
+    <div class="d-grid gap-2 col-6 col-xl-4 mx-auto">
 
         <button type="button" class="btn btn-success btn-lg">Start</button>
 
     </div>
-    
-    <div class="accordion mt-4" id="accordionTools">
-        <div class="accordion-item">
-            <h5 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    <div class="accordion-header-text">Tools for univariate analysis</div>                    
-                </button>
-            </h5>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-            data-bs-parent="#accordionTools">
-            <div class="accordion-body">
-                    <ul>
-                        <li>Depuration</li>
+    <div class="container col-md-7 col-lg-6 col-xl-4 justify-content-center">
+        <div class="accordion mt-4" id="accordionTools">
+            <div class="accordion-item mb-2">
+                <h5 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="accordion-header-text">Tools for univariate analysis</div>
+                    </button>
+                </h5>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionTools">
+                    <div class="accordion-body">
                         <ul>
-                            <li>Global outliers</li>
-                            <li>Spatial outliers</li>
-                            <li>Border effects</li>
+                            <li>Depuration</li>
+                            <ul>
+                                <li>Global outliers</li>
+                                <li>Spatial outliers</li>
+                                <li>Border effects</li>
+                            </ul>
+                            <li>Spatial interpolation</li>
+                            <ul>
+                                <li>Variogram fitting</li>
+                                <li>Kriging prediction</li>
+                            </ul>
+                            <li>Classification</li>
+                            <ul>
+                                <li>Fuzzy k-means cluster</li>
+                            </ul>
                         </ul>
-                        <li>Spatial interpolation</li>
-                        <ul>
-                            <li>Variogram fitting</li>
-                            <li>Kriging prediction</li>
-                        </ul>
-                        <li>Classification</li>
-                        <ul>
-                            <li>Fuzzy k-means cluster</li>
-                        </ul>
-                    </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h5 class="accordion-header" id="headingTwo">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                aria-expanded="false" aria-controls="collapseTwo">
-                <div class="accordion-header-text">Tools for multivariate analysis</div>                
-            </button>
-        </h5>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionTools">
-                <div class="accordion-body">
-                    <ul>
-                        <li>Spatial Principal Components</li>
-                        <li>Fuzzy k-means on spatial principal components (KM-sPC)</li>
-                    </ul>
+            <div class="accordion-item">
+                <h5 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="accordion-header-text">Tools for multivariate analysis</div>
+                    </button>
+                </h5>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionTools">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Spatial Principal Components</li>
+                            <li>Fuzzy k-means on spatial principal components (KM-sPC)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    <p class="text-center mt-3">If you have any question please write to sarasa@sarasa.edu.ar.</p> 
+    <p class="text-center mt-3">If you have any question please write to sarasa@sarasa.edu.ar.</p>
     <p class="text-center mt-3">Brief tutorial is available in this <a class="alert-link" href="#">link</a>.</p>
-    
-    
+
+
 
 
 
