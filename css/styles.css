@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 header {
     
     margin-top: 20px;    
@@ -14,6 +18,7 @@ header {
 
 .encabezado {
     width: 70%;
+    min-width: 290px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
@@ -23,7 +28,8 @@ header {
 }
 
 .encabezado span {
-    font-size: 150% ;
+    text-align: center;
+    font-size: 2.0rem ;
     font-family: monospace;
 }
 
@@ -32,9 +38,10 @@ header {
     align-items: center;
     justify-content: space-around;
     border: #012424 solid 1px;
-    width: 40%;
-    height: 80px;
+    width: 70%;
+    min-width: 270px;
     margin-top: 10px;
+    padding: 10px;
     list-style-type: none;
     background-color: antiquewhite;
     
@@ -42,18 +49,21 @@ header {
 
 .main-nav ul {
     display: flex;
-    width: 300px;
+    min-width: 270px;
+    width: 50%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 10px;
+   margin: 10px;
 }
 
 .main-nav a {
     color: white;
     background-color: #13a4a4;
+    font-size: 1.6rem;
     border-radius: 2px;
     text-decoration: none;
     padding: 5px;

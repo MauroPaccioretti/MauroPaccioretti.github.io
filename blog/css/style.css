@@ -1,0 +1,145 @@
+:root {
+    --oscuro: #071C34;
+    --oscuro2: #144361;
+    --medio: #6298BC;
+    --medio2: #87B2CC;
+    --claro: #C0CED1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    width: 100%;
+    min-width: 300px;    
+}
+
+
+.topHeader {
+    
+    background:linear-gradient(180deg, var(--oscuro), var(--oscuro2));
+    display: flex;    
+    width: 100%;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.topHeader__inside {
+    width: 75%;
+    padding: 0.5rem;
+    justify-content: center;
+}
+.topHeader__titulo h1 {
+    text-align: center;
+    color: var(--claro);
+    font-size: 2.5rem;
+}
+.bottomHeader {
+    border-bottom: 2px black solid;
+    width: 100%;
+    background-color: var(--claro);
+    padding: 0.5rem;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    font-size: 2rem;
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    
+}
+
+header nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 1rem;
+    margin: 0rem;
+    align-self: center;
+}
+
+header nav li:not(:last-child) {    
+    border-right: 2px black solid;
+}
+header nav li:not(:first-child) {    
+    border-left: 2px black solid;
+}
+
+header nav li:hover {
+    background-color: var(--medio2);
+    cursor: pointer;
+}
+
+header nav li:active {
+    background-color: var(--medio);
+}
+
+header nav li a {
+    text-decoration: none;
+    color: var(--oscuro);
+}
+
+
+main {
+    background-color: var(--medio2);
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: var(--claro);
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border: 2px var(--medio2) solid;
+    border-radius: 3px;
+    margin: 3rem 0;
+    padding: 1rem;
+    box-shadow: 0 0 10px 0 var(--oscuro);
+}
+
+section audio {
+    display: inline-block;
+    align-self: center;
+    margin: 2rem;
+}
+
+section h3 {
+    text-align: center;
+    padding: 2rem;
+    color: var(--oscuro);
+}
+
+footer {
+    height: 10rem;
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    background: linear-gradient(90deg, var(--oscuro), var(--oscuro2));
+    justify-content: end;
+    align-items: center;
+}
+
+.base {
+    padding: 2rem;    
+}
+
+.base__inside a {
+    text-decoration: none;
+    color: var(--claro);
+    font-size: 2rem;
+}
